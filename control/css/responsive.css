@@ -1,0 +1,153 @@
+@media screen and (min-width:1300px)  {
+
+		.bx-wrapper {
+		max-width: 100% !important;
+	}
+
+}
+/*=========================================================================================*/
+@media screen and (min-width:992px) and (max-width:1200px) {
+	.bxslider >li {
+		width:auto !important;
+	}
+
+
+
+}
+
+/*======================================================= ===============================*/
+@media screen and (min-width:800px) and (max-width:991px) {
+
+
+	.dataTables_length,.dataTables_filter {
+		width: 100%;
+		text-align: left;
+	}
+
+
+	.bxslider >li {
+		width:auto !important;
+	}
+
+.basic {
+	width: 65%;
+	float: left;
+}
+
+.sidebar {
+	width: 32%;
+float: right;
+}
+footer {
+	clear: both
+}
+/*End iPad Size*/}
+
+/*======================================================= Wide - Phone Size ===============================*/
+@media screen and (min-width:473px) and (max-width:799px) {
+
+		#dashboard .tab-pane {
+		height: auto;
+		overflow-y:scroll;
+	}
+
+	#dashboard .basic{
+		width: 100%;
+	}
+	#dashboard .sidebar {
+		display: none;
+	}
+	.dataTables_length,.dataTables_filter {
+		width: 100%;
+		text-align: left;
+	}
+
+	.bxslider >li {
+		width:auto !important;
+	}
+
+.basic {
+	width: 51%;
+	float: left;
+}
+
+.sidebar {
+	width: 45%;
+float: right;
+}
+
+.chat-form textarea {
+	width: 95%
+}
+.chat-form .btn {
+	display: none;
+}
+footer {
+	clear: both
+}
+
+
+/*End wide - Phone Size*/}
+
+@media screen and (max-width:472px) {
+
+	#dashboard .basic{
+		width: 100%;
+	}
+	#dashboard .sidebar {
+		display: none;
+	}
+	.dataTables_length,.dataTables_filter {
+		width: 100%;
+		text-align: center;
+	}
+
+	.dataTables_filter label {margin-top: 10px;}
+
+	#dashboard .tab-pane {
+		height: auto;
+		overflow-y:scroll;
+	}
+
+	body {
+		font-size: 11px;
+	}
+
+	.bxslider >li {
+		width:auto !important;
+	}
+
+.sidebar ,.sidebar .nav-tabs,.users-actions,.sidebar .tab-pane{
+	position: static;
+}
+
+.sidebar {
+	width: 100%;
+	margin-top: 265px;
+}
+
+.tab-pane{
+	height: 200px;
+}
+
+.chat-form .btn {
+	display: none;
+}
+	
+	.chat-form textarea {
+	width: 95%
+}
+
+
+}
+
+
+
+
+
+/*End iPhone Size*/}
+
+
+/* Workaround: in landscape mode, IEMobile makes bottom toolbar overlap the page, so shorten the page by 75px to compensate */
+.iemobile .mypage { bottom: -6px; }
+@media screen and (orientation:landscape) { .iemobile .mypage { bottom: 75px; } }

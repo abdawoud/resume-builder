@@ -1,0 +1,72 @@
+/*======================================================== Dashboard Styling ========================================*/
+.basic {
+        top: 0px;
+       /* background: #000;*/
+    }
+
+    .sidebar {
+        top: 0px;
+        /*background: #000;*/
+        margin-top: 1em;
+    }
+#dashboard .tab-content {
+    border: 1px solid #dddddd;
+
+    padding-bottom: 10px
+}
+
+.dataTables_wrapper {
+    padding: 1em
+}
+
+.dataTables_length {
+    float: left;
+    width: 30%
+}
+
+ .dataTables_filter {
+    float: right;
+    text-align: right;
+    width: 70%
+}
+
+.dataTables_info {
+float: left;
+width: 50%
+}
+
+.dataTables_paginate {
+
+    float: left;
+width: 50%;
+text-align: right;
+
+}
+
+.dataTables_paginate a{
+    padding: 0px 10px;
+}
+
+#dashboard .sidebar {
+    margin-top: 2em
+}
+
+#dashboard table {
+    margin-top: 45px
+}
+
+.dataTables_filter input {
+    height: 33px;
+}
+
+.dataTables_length select{
+    height: 33px;
+}
+
+.btn-group {
+margin-right: 10px;    
+}
+
+
+.mybody.myrow {
+top: 50px;}

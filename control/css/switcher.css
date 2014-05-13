@@ -1,0 +1,52 @@
+.switcher {
+	width: 150px;
+	position: fixed;
+	top: 150px;
+	left: -150px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 10px;
+	z-index: 2000;
+	background: #fafafa;
+
+}
+.switcher ul {
+	list-style: none;
+}
+.switcher li {
+	border-radius: 2px;
+	margin-bottom: 5px;
+}
+.switcher a {
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #fff;
+	display: block;
+}
+.switcher .elegant {
+	background: #00ada7;
+}
+.switcher .vintage {
+	background: #D18FA6;
+}
+.switcher .autumn {
+	background: #A66748;
+}
+.switcher .marino {
+	background: #27B58B;
+}
+.switcher .eco {
+	background: #15BFC9;
+}
+.switcher .toggle {
+	position: relative;		
+}
+.switcher .toggle a {
+	width: 30px;
+	height: 30px;
+	background: #FF7979;
+	border-radius: 2px;
+	position: absolute;
+	right: -40px;
+	top: -11px;
+}

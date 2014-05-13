@@ -1,0 +1,15 @@
+function createResume(){
+$.ajax({
+        url: "test.php",
+        type: "post",
+        data: values,
+        success: function(){
+            alert("success");
+            $("#result").html('Submitted successfully');
+        },
+        error:function(){
+            alert("failure");
+            $("#result").html('There is error while submit');
+        }
+    });
+}
